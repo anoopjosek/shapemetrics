@@ -1,0 +1,25 @@
+Details:
+1) Program to calculate the area of Square, Circle and Triangle using one length.
+
+How to Build:
+1) Build the application using mavan and java 8.
+1.1) mvn clean install
+
+How to run:
+1) java -jar shape-0.0.1-SNAPSHOT.jar
+
+How to use:
+1) To get area of circle, invoke below URL from browser \ postman. last part is the radius of the circle.
+1.1) http://localhost:8080/circle/13
+
+2) To get area of square, invoke below URL from browser \ postman. last part is the length of the square.
+2.1) http://localhost:8080/square/13
+
+3) To get area of triangle, invoke below URL from browser \ postman. last part is the length of the triangle.
+3.1) http://localhost:8080/triangle/13
+
+4) To get area of all, invoke below URL from browser \ postman. last part is the radius of the circle, length of square and length of triangle.
+4.1) http://localhost:8080/all/13
+
+5) To get area of all asynchronously, invoke below URL from browser \ postman. last part is the radius of the circle, length of square and length of triangle.
+5.1) http://localhost:8080/allAsync/13
